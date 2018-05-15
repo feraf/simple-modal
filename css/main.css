@@ -14,3 +14,7 @@ main{
     padding: 2em;
     box-sizing: border-box;
 }
+
+button{
+    padding: 10px;
+}
