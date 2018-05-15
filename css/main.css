@@ -1,0 +1,16 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+    background: #ACAFAC;
+}
+
+main{
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    background: #FEFAFE;
+    padding: 2em;
+    box-sizing: border-box;
+}
