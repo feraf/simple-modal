@@ -1,4 +1,4 @@
-.modal{
+.sm-modal{
     position: fixed;
     display: none;
     width: 50vw;
@@ -9,16 +9,14 @@
     padding: 2em;
     z-index: 2;
 }
-.modal.show{
-    display: block;
-}
-.modal.bottom{
+.sm-modal.show{ display: block; }
+.sm-modal.bottom{
     width: 100vw;
     margin: 0;
     bottom: 0;
     left: 0;
 }
-.overlay{
+.sm-overlay{
     background: rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 0;
@@ -27,3 +25,4 @@
     height: 100vh;
     z-index: 1;
 }
+.sm-blur{ filter: blur(2px); }
